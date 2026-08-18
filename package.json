@@ -1,0 +1,25 @@
+{
+  "name": "arya",
+  "version": "1.0.0",
+  "description": "Arya - Email Assistant with Slack Approvals",
+  "main": "arya_complete.js",
+  "scripts": {
+    "start": "node arya_complete.js",
+    "dev": "node arya_complete.js"
+  },
+  "keywords": [
+    "email",
+    "assistant",
+    "slack",
+    "automation",
+    "gmail"
+  ],
+  "author": "Valeria",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^118.0.0"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
