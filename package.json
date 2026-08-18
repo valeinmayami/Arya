@@ -2,9 +2,9 @@
   "name": "arya",
   "version": "1.0.0",
   "description": "Arya - Email Assistant with Slack Approvals",
-  "main": "arya_imap.js",
+  "main": "arya_complete.js",
   "scripts": {
-    "start": "node arya_imap.js"
+    "start": "node arya_complete.js"
   },
   "keywords": [
     "email",
