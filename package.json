@@ -2,10 +2,9 @@
   "name": "arya",
   "version": "1.0.0",
   "description": "Arya - Email Assistant with Slack Approvals",
-  "main": "arya_complete.js",
+  "main": "arya_imap.js",
   "scripts": {
-    "start": "node arya_complete.js",
-    "dev": "node arya_complete.js"
+    "start": "node arya_imap.js"
   },
   "keywords": [
     "email",
@@ -17,7 +16,9 @@
   "author": "Valeria",
   "license": "MIT",
   "dependencies": {
-    "googleapis": "^118.0.0"
+    "imap": "^0.9.6",
+    "mailparser": "^3.6.7",
+    "nodemailer": "^6.9.7"
   },
   "engines": {
     "node": "24.x"
